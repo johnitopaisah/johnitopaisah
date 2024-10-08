@@ -1,6 +1,22 @@
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hi there, I'm John Itopa ISAH</h1>
+<h1 align="center">
+  <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> 
+  <span style="color:orange">Hi there, I'm John Itopa ISAH</span>
+  <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/>
+</h1>
 
-<p>Welcome to my GitHub profile! </br> I'm John, a cloud and backend developer passionate about using technology to build innovative solutions, currently based in <b>Paris, France</b>. </p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&width=400&lines=Cloud+Engineer;Backend+Developer;Open+Source+Contributor;Lifelong+Learner;Tech+Enthusiast;Creative+Problem+Solver" />
+</p>
+
+---
+
+### 👨‍💻 About Me:
+Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Developer** based in Paris, France. I specialize in building cloud-based applications and backend systems with a focus on efficiency, scalability, and reliability. I love working with technologies like **AWS**, **Docker**, **Kubernetes**, and **Python/Django** to deliver robust solutions. I’m also an **Open Source Contributor** and an advocate for **lifelong learning**.
+
+- 🔭 I’m currently working on cloud infrastructure projects and API development.
+- 🌱 I’m learning more about DevOps tools like **Terraform** and **Kubernetes**.
+- 🤝 I’m always looking to collaborate on exciting open-source projects.
+- ⚡ Fun Fact: I'm obsessed with solving challenging problems and learning new technologies.
 
 ---
 
@@ -98,4 +114,8 @@
 
 ---
 
-<p align="center">This <i>README</i> is updated regularly to reflect my latest projects and activities!</p>
+<h3 align="center">🦋 Watch the Butterflies 🦋</h3>
+<p align="center">
+  <img src="https://github.com/johnitopaisah/johnitopaisah/blob/output/github-contribution-grid-butterflies.svg" alt="butterflies"/>
+</p>
+
