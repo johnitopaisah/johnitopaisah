@@ -7,17 +7,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Checkout the repository
+        uses: actions/checkout@v4
       - name: Generate Butterfly SVG
         uses: Platane/snk@master
         with:
           github_user_name: johnitopaisah
           svg_out_path: dist/github-contribution-grid-butterflies.svg
       - name: Commit and Push changes
-        uses: github-actions-x/commit@v2
+        uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: '${{ secrets.GITHUB_TOKEN }}'
-          commit_message: Generated new butterfly grid
           branch: output
-          file_pattern: dist/github-contribution-grid-butterflies.svg
+          force: true
+          commit_message: Generated new butterfly grid
