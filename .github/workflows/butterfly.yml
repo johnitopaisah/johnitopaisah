@@ -1,24 +1,23 @@
-name: Generate Butterfly
+name: Generate Butterflies
 'on':
   schedule:
-    - cron: 0 */6 * * *
+    - cron: 0 0 * * *
   workflow_dispatch: null
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      - name: Generate Butterfly
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Generate Butterfly SVG
         uses: Platane/snk@master
-        id: generate-butterfly
         with:
           github_user_name: johnitopaisah
-          gif_out_path: dist/github-contribution-grid-butterflies.gif
           svg_out_path: dist/github-contribution-grid-butterflies.svg
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Commit and Push changes
+        uses: github-actions-x/commit@v2
         with:
           github_token: '${{ secrets.GITHUB_TOKEN }}'
+          commit_message: Generated new butterfly grid
           branch: output
-          force: true
+          file_pattern: dist/github-contribution-grid-butterflies.svg
