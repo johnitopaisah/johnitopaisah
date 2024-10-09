@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Generate Butterfly SVG
         uses: Platane/snk@master
         with:
