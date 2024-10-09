@@ -1,0 +1,33 @@
+name: Generate Butterfly
+
+# Run this action every 6 hours to keep the contribution grid up to date
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      # Step 2: Generate the butterfly animation
+      - name: Generate Butterfly
+        uses: Platane/snk@master
+        id: generate-butterfly
+        with:
+          github_user_name: johnitopaisah
+          gif_out_path: dist/github-contribution-grid-butterflies.gif
+          svg_out_path: dist/github-contribution-grid-butterflies.svg
+      
+      # Step 3: Push changes to the repository
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: output
+          force: true
