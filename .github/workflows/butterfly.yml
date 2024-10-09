@@ -1,25 +1,34 @@
 name: Generate Butterflies
+
 'on':
   schedule:
-    - cron: 0 0 * * *
-  workflow_dispatch: null
+    - cron: '0 0 * * *'  # Run at midnight UTC every day
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-      - name: Generate Butterfly SVG
-        uses: Platane/snk@master
-        with:
-          github_user_name: johnitopaisah
-          svg_out_path: dist/github-contribution-grid-butterflies.svg
-      - name: Commit and Push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: '${{ secrets.GITHUB_TOKEN }}'
-          branch: output
-          force: true
-          commit_message: Generated new butterfly grid
+    - name: Checkout the repository
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: false  # Disable automatic credentials to use PAT
+
+    - name: Generate Butterfly SVG
+      uses: Platane/snk@master
+      with:
+        github_user_name: johnitopaisah
+        svg_out_path: dist/github-contribution-grid-butterflies.svg
+
+    - name: Set up Git user
+      run: |
+        git config user.name "johnitopaisah"
+        git config user.email "johnitopaisah@gmail.com"
+
+    - name: Commit and Push changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GH_PAT }}  # Use your PAT stored in the repository's secrets
+        branch: output
+        force: true
