@@ -19,7 +19,7 @@ jobs:
       - name: Set up Git user
         run: |
           git config user.name "johnitopaisah"
-          git config user.email "johnitopa.isah@gmail.com"
+          git config user.email "johnitopaisah@gmail.com"
       - name: Commit and Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
