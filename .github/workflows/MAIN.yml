@@ -1,21 +1,15 @@
 name: Generate Snake
 
-# Runs every 6 hours
 on:
   schedule:
     - cron: "0 */6 * * *"
-
-  # Allows you to run the Action manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   build:
-    # Runs the job on the latest version of Ubuntu
     runs-on: ubuntu-latest
-
     steps:
-      # Checks out the repository under $GITHUB_WORKSPACE
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # Generates the snake GIF and SVG
       - name: Generate Snake
@@ -23,22 +17,22 @@ jobs:
         id: snake-gif
         with:
           github_user_name: johnitopaisah
-          # Generates the files on a branch called "output"
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      # Checks the status to debug if needed
-      - run: git status
+      # Set outputs using environment files (if needed)
+      - name: Set output using environment files
+        run: echo "my_output=value" >> $GITHUB_ENV
 
-      # Push the generated snake files to the `output` branch
+      # Push the generated snake files to the output branch
       - name: Push Snake to Output Branch
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@v0.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: output
           force: true
 
-      # Publishes the content to GitHub Pages from the `output` branch
+      # Deploy the content to GitHub Pages
       - name: Deploy Snake to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
