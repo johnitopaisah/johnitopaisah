@@ -35,7 +35,7 @@ jobs:
 
       # Commit and Push changes to the output branch
       - name: Commit and Push changes
-        uses: ad-m/github-push-action@main
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_PAT }}
           branch: output  # Push to the output branch where generated files are stored
