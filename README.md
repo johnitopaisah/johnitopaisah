@@ -57,16 +57,15 @@ Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Devel
 
 <h2>⚡ Scripting & Automation</h2>
 <p align="center">
-  <!-- Bash -->
-  <img alt="Bash" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50" />
-  <!-- Shell -->
-  <img alt="Shell" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50"/>
-  <!-- PowerShell -->
-  <img alt="PowerShell" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" width="50" height="50"/>
   <!-- Python Scripting -->
   <img alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50" />
   <!-- JavaScript -->
   <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50" />
+  <!-- Bash -->
+  <img alt="Bash" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50" />
+  <!-- PowerShell -->
+  <img alt="PowerShell" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" width="50" height="50"/>
+  
 </p>
 
 ---
