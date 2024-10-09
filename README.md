@@ -32,7 +32,7 @@ Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Devel
   <!-- Kubernetes -->
   <img alt="Kubernetes" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="50" height="50" />
   <!-- AWS -->
-  <img alt="AWS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="50" height="50" />
+  <img alt="AWS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="50" height="50" />
   <!-- Git -->
   <img alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50" />
   <!-- Linux -->
@@ -41,6 +41,16 @@ Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Devel
   <img alt="Jupyter" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="50" height="50" />
   <!-- SQL -->
   <img alt="SQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50" />
+  <!-- C -->
+  <img alt="C" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50" />
+  <!-- HTML -->
+  <img alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50" />
+  <!-- CSS -->
+  <img alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50" />
+  <!-- React -->
+  <img alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" height="50" />
+  <!-- JavaScript -->
+  <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50" />
 </p>
 
 ---
@@ -50,11 +60,13 @@ Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Devel
   <!-- Bash -->
   <img alt="Bash" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50" />
   <!-- Shell -->
-  <img alt="Shell" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gnu/bash-plain.svg" width="50" height="50"/>
+  <img alt="Shell" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50"/>
   <!-- PowerShell -->
   <img alt="PowerShell" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" width="50" height="50"/>
   <!-- Python Scripting -->
   <img alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50" />
+  <!-- JavaScript -->
+  <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50" />
 </p>
 
 ---
@@ -79,18 +91,18 @@ Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Devel
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/johnitopaisah/E-commerce-API?style=flat-square&labelColor=343b41"/></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/johnitopaisah/horizonportal_project"><b>Horizon Portal</b></a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/johnitopaisah/horizonportal_project?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/johnitopaisah/horizonportal_project?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/johnitopaisah/horizonportal_project?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/johnitopaisah/horizonportal_project?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/johnitopaisah/simple_shell1"><b>Simple Shell</b></a></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/johnitopaisah/simple_shell1?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Forks" src="https://img.shields.io/github/forks/johnitopaisah/simple_shell1?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Issues" src="https://img.shields.io/github/issues/johnitopaisah/simple_shell1?style=flat-square&labelColor=343b41"/></td>
       <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/johnitopaisah/simple_shell1?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/johnitopaisah/horizonportal_project"><b>Horizon Portal</b></a></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/johnitopaisah/horizonportal_project?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Forks" src="https://img.shields.io/github/forks/johnitopaisah/horizonportal_project?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Issues" src="https://img.shields.io/github/issues/johnitopaisah/horizonportal_project?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/johnitopaisah/horizonportal_project?style=flat-square&labelColor=343b41"/></td>
     </tr>
     <tr>
       <td><a href="https://github.com/johnitopaisah/printf"><b>Printf</b></a></td>
@@ -110,7 +122,7 @@ Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Devel
 ---
 
 <h3>Where to find me</h3>
-<p><a href="https://github.com/johnitopaisah" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/john-itopa-isah" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:johnitopa.isah@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a></p>
+<p><a href="https://github.com/johnitopaisah" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/johnitopaisah" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:john-itopa.isah@eleve.isep.fr"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a></p>
 
 ---
 
@@ -118,4 +130,3 @@ Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Devel
 <p align="center">
   <img src="https://github.com/johnitopaisah/johnitopaisah/blob/output/github-contribution-grid-butterflies.svg" alt="butterflies"/>
 </p>
-
