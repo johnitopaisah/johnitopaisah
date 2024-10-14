@@ -127,6 +127,7 @@ Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Devel
 ---
 
 <h3 align="center">🦋 Watch the Butterflies 🦋</h3>
-<p align="center">
-  <img src="https://github.com/johnitopaisah/johnitopaisah/blob/output/github-contribution-grid-butterflies.svg" alt="butterflies"/>
+<p>
+  <img src="https://github.com/johnitopaisah/johnitopaisah/blob/output/github-contribution-grid-butterflies.gif" alt="butterflies"/>
 </p>
+
