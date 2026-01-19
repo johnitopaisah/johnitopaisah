@@ -124,10 +124,10 @@ Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Devel
 <h3>Where to find me</h3>
 <p><a href="https://github.com/johnitopaisah" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/johnitopaisah" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:john-itopa.isah@eleve.isep.fr"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a></p>
 
----
 
-<h3 align="center">🦋 Watch the Butterflies 🦋</h3>
-<p>
-  <img src="https://github.com/johnitopaisah/johnitopaisah/blob/output/github-contribution-grid-snake.gif"/>
-</p>
 
+<!-- Snake Animation -->
+<div align="center">
+
+  ![snake gif](https://github.com/johnitopaisah/johnitopaisah/blob/output/github-snake-dark.svg)
+</div>
