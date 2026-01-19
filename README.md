@@ -129,5 +129,5 @@ Hi, I'm **John Itopa ISAH**, a passionate **Cloud Engineer** and **Backend Devel
 <!-- Snake Animation -->
 <div align="center">
 
-  ![snake gif](https://github.com/johnitopaisah/johnitopaisah/blob/output/github-snake-dark.svg)
+  ![snake gif](https://github.com/johnitopaisah/johnitopaisah/blob/output/github-snake.svg)
 </div>
